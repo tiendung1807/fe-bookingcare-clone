@@ -4,7 +4,7 @@
   "private": true,
   "engines": {
     "node": "16.x"
-  }
+  },
   "dependencies": {
     "@formatjs/intl-pluralrules": "^3.5.6",
     "@formatjs/intl-relativetimeformat": "^7.3.6",
