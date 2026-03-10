@@ -6,7 +6,7 @@ const instance = axios.create({
     // withCredentials: true
 });
 
-
+instance.defaults.headers.get["Content-Type"] = "application/json; charset=UTF-8"
 
 instance.interceptors.response.use(
     (response) => {
